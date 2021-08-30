@@ -3,16 +3,18 @@
 ## User Story
   
 ```
-
+AS A developer who writes about tech
+I WANT a CMS-style blog site
+SO THAT I can publish articles, blog posts, and my thoughts and opinions
 
 ```
 
 ## Description
-  
+  This application allow users can publish their blog posts and comment on other users' posts as well. This application follows the MVC paradigm in its architectural structure, using Handlebars as the html files, Sequelize as the ORM, and the express-session npm package for authentication.
 ## Heroku 
-[tech blog App](https://secure-temple-27140.herokuapp.com/)
+[tech blog App](https://dry-caverns-77370.herokuapp.com/)
 ## Screenshot
-![tech-blog](./src/gif_1628480140.GIF)
+![tech-blog](./src/techblog.png)
 ## Table of Contents
 - [Description](#description)
 - [Heroku Link](#Heroku)
@@ -25,7 +27,7 @@
 ## Installation
   `npm init -y`
   
-  `npm install express`
+  `npm i bcrypt connect-session-sequelize dotenv express express-handlebars express-session handlebars mysql2 sequelize`
 ## Usage
   Run the following command at th root of your project and answer the prompted questions:<br />
 
@@ -33,12 +35,12 @@
 
   
 ## Languages
-  JavaScript,Node,HTML,CSS,Express
+  JavaScript,Node,Handlebars,CSS,Express, Mysql
 ## Contributing
   ChunYu Chang
 ## Reference
   1.Class Moudles <br />
-  https://github.com/mr91217/zookeepr<br />
+  https://github.com/mr91217/just-tech-news<br />
 ## Questions
  Contact me<br />
 
